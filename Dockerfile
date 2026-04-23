@@ -1,6 +1,6 @@
 FROM eclipse-temurin:17-jdk-jammy
 
-WORKDIR /app
+WORKDIR /app    #work directery
 
 COPY target/*.jar app.jar
 
